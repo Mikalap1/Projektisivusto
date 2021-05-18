@@ -1,0 +1,75 @@
+body {
+	
+  font-family: 'Work Sans', sans-serif;
+  color:black;
+  background-color:#CCE3D4; 
+
+ 
+
+  
+}
+h1 {
+	font-family: 'Bitter', serif;
+	
+}
+nav .container-fluid{
+	background-color:#AEB7B3;
+	font-family: 'Bitter', serif;
+	border-radius: 15px;
+	
+}
+div .container{
+	background-color: #E1EFE6;
+	display: flex;
+	flex-wrap: wrap;
+	width:80%;
+		
+}
+
+
+div .row{
+	
+	background-color: #E1EFE6;
+	font-weight: normal;
+	
+}
+	
+	
+		footer {
+
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  background-color: #AEB7B3;
+}
+
+#sivupalkki	{
+	background-color: AEB7B3;
+	height: 500px;
+	border: dotted;
+	border-radius: 5px;
+	padding: 20px;
+	}
+
+
+
+@media only screen and (max-width: 600px) {
+
+div .class,aside, #sivupalkki {
+	width:100%;
+}
+
+}
+
+.btn-success {
+
+width: 120px;
+border-style: solid;
+border-color: black;
+
+
+}
+		
+
+
+
