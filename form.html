@@ -65,15 +65,17 @@ Ota yhteyttä
 
 
 <form action="/action_page.php" method="get">
-<label for="fname"> First name </label><br>
-<input height="100" width="100" type="text" id="fname" value="John"><br>
+<label for="fname">Etunimi</label><br>
+<input height="100" width="60" type="text" id="fname" value="Nimi">
+	<label for="lname">Sukunimi</label>
+<input height="100" width="80" type="text" id="lname" value="Nimi"><br>
 
- <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
+	<label for="fname">Haluatko vastauksen palautteeseen?</label>
+ <input type="radio" id="yes" name="yesno" value="yes">
+  <label for="yes">Kyllä</label><br>
+  <input type="radio" id="no" name="yesno" value="no">
+  <label for="female">Ei</label><br>
+
   <br>
   <label for="vehicle1">Testi</label><br>
     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
