@@ -63,38 +63,31 @@ Ota yhteyttä
 <div class="container">
 
 
-<div class="row">
-	<div class="col-sm-3 overflow-auto">
-		<p>Projektisivuni teema oli pääasiassa jääkiekko, sisältö jäi kuitenkin hyvin vähäiseksi itse aiheeseen liittyen.</p>
-		
-	
+<form action="/action_page.php" method="get">
+<label for="fname"> First name </label><br>
+<input height="100" width="100" type="text" id="fname" value="John"><br>
 
-		</div>
-		<div class="col-sm-3 overflow-auto">
-		This is column.
-		</div>
-		<div class="col-sm-4 overflow-auto">
-		This is column.
-		</div>
+ <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br>
+  <label for="vehicle1">Testi</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
 
-		<div class="col-sm-2" ID="sivupalkki">
-			<h2>Eri liigat:</h2>
-			<ul class="navbar-nav ml-auto">
-			<li>
-			<a href="https:www.nhl.com" class="btn btn-success">NHL</button></a>
-			</li>
-			<li>
-			<a href="https://en.khl.ru/.com" class="btn btn-success">KHL</button></a><br>
-		</li>
-		<li>
-			<a href="https:www.liiga.fi" class="btn btn-success">Liiga</button></a>
-		</li>
-		<li>
-			<a href="https://www.shl.se/p/" class="btn btn-success">SHL</button></a>
-		</li>
-	
-		</ul>
-		</div>
+<textarea name="message rows="10" cols="30">
+This is text area.
+</textarea>
+
+<input type="submit" value="Submit">
+</form>
 		
 
 </div>
